@@ -11,9 +11,9 @@
     font-size: 1.5rem;
     background-color: #8bbe7b;
     max-width: 100%;
-    height: 100vh;
-
+    overflow: hidden;
 }
+
 .container button {
     margin-bottom: 1rem;
     padding: 0.5rem 2rem;
@@ -21,6 +21,7 @@
     border: 1px solid #000;
     border-radius: 2px;
 }
+
 .container button:hover {
     background-color: #2ec1ac;
     color: #fff;
